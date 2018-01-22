@@ -1,6 +1,6 @@
 ```
     $ npm install
-    $ 开发
+    $ 开发 1
     $ npm start 
     $ 打包
     $ npm run package
