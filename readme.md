@@ -16,6 +16,6 @@
 
 - 在build文件夹中(Gruntfile.js) npm install好
 
-- 运行 $ grunt
+- 全局安装grunt，并运行 `$ grunt`
 
 - 输出文件在dist处
