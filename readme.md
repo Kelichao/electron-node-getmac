@@ -11,3 +11,7 @@
 ### 备注：安装打包文件的依赖，不然报错
 	打包完成需要去‘\resources\app‘ 下安装依赖包 $ npm install
 
+# 打包成安装包.exe
+- 新建目录build，并将lv6-win32-x64复制到其下面,再次需要去‘\resources\app‘ 下安装依赖包 $ npm install（有点问题,每次移动过文件夹都需要重新install）
+
+- 在build文件夹中(Gruntfile.js) npm install好。
