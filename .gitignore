@@ -2,3 +2,8 @@
 node_modules
 *.log
 /lv6
+/build/lv6-win32-x64
+/build/electron-two/lv6-win32-x64
+/build/electron-two/node_modules
+/two/build/dist
+/two/build/lv6-win32-x64
