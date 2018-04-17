@@ -12,7 +12,7 @@ require('getmac').getMac(function(err,macAddress){
 })
 
 app.on('ready', function() {
-    mainWindow  = new BrowserWindow({width: 500, height: 960})
+    mainWindow  = new BrowserWindow({width: 1000, height: 700})
     mainWindow.loadURL('file://' + __dirname + '/app/index.html');
 });
 
