@@ -1,5 +1,7 @@
 # 打包步骤
 ```
+# 全局安装electron
+$ npm install electron -g
 # 安装依赖
     $ npm install
 # 本地调试
