@@ -9,6 +9,7 @@ $ npm install electron -g
 # 生成打包文件
     $ npm run package
 ```
+- 最终生成名为`lv6-win32-x64`的文件
 
 ### 备注：安装打包文件的依赖，不然报错
 	打包完成需要去‘\resources\app‘ 下安装依赖包 $ npm install
