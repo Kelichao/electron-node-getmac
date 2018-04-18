@@ -13,13 +13,12 @@ $ npm start
 $ npm run package
 
 ```
+- 打包完成需要去‘\resources\app‘ 下安装依赖包 `$ npm install getmac`
 - 最终生成名为`lv6-win32-x64`的文件
 
 
 # 打包二步骤-生成exe文件（second分支）
 
-### 备注：安装打包文件的依赖，不然报错
-打包完成需要去‘\resources\app‘ 下安装依赖包 $ npm install
 
 1. 切换到second分支，并将lv6-win32-x64复制到其`/build`目录下面(与Gruntfile.js同级)
 
@@ -29,4 +28,4 @@ $ npm run package
 
 4. 全局安装grunt，并在`/build`运行 `$ grunt`
 
-- 输出文件在`/dist`处
+5. 输出文件在`/dist`处
